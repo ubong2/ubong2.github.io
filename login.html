@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ubong</title>
+        <script src="https://kit.fontawesome.com/3bb6009dac.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff;
+            }
+            nav{
+                top: 0;
+                position: fixed;
+                width: 100%;
+            }
+            .topnav{
+                list-style-type: none;
+                margin: 0px;
+                padding: 5px;
+                overflow: hidden;
+                background-color: #013eaf;
+
+            }
+            .topnavlist a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color:#ffffff;
+                padding: 5px;
+
+
+            }
+            .nav{
+                list-style-type: none;
+                background-color:#ffffff;
+                overflow: hidden;
+                margin: 0px;
+                padding-bottom: 25px;
+                
+                
+
+            }
+            .navlist{
+                padding-left: 30x;
+                padding-right: 30px;
+                
+            }
+            .navlist a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                padding-top: 25px;
+                padding-left: 5px;
+                padding-right:5px;
+                padding-bottom: 0px;
+            }      
+            .navlist a:hover{
+            border-bottom: solid; 
+            border-width: 3px;
+            color: #013eaf;
+            }
+            .active {
+            text-decoration: none;
+            color:#000000;
+            border-bottom: solid; 
+            border-width: 3px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+            <nav>
+            <ul class="topnav">
+                <li class="topnavlist" style="float:left; padding-left: 30px; padding-right: 40px;"><a href="mailto:support@ubongtech.com"><i class="fa-solid fa-envelope" style="padding-right:5px;"></i><b>support@ubongtech.com</b></a></li>
+                <li class="topnavlist" style="float:left; padding-right: 5px;"><a href="tel:08136200075"><i class="fa-solid fa-phone" style="padding-right:5px;"></i><b>+234-813-620-0075</b></a></li>
+                <li class="topnavlist" style="float:right; padding-right: 30px;"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="topnavlist" style="float:right; padding-right: 20px;"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="topnavlist" style="float:right; padding-right: 20px;"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="topnavlist" style="float:right; padding-right: 20px;"><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                <li class="topnavlist" style="float:right; padding-right: 20px;"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+
+            </ul>
+            <ul class="nav" style="box-shadow: 5px 5px 10px #a3a3a3;  ">
+                <li class="navlist" style="float:left;font-size: larger; padding-left: 30px;"><a style="color: #013eaf;" href="index.html"><b>Home</b></a></li>
+                <li class="navlist" style="float:left; font-size: larger;" ><a style="color: #013eaf;" href="news.html"><b>News</b></a></li>
+                <li class="navlist" style="float:left;font-size: larger;"><a style="color: #013eaf;" href="about.html"><b>About</b></a></li>
+                <li class="navlist" style="float:left;font-size: larger;"><a style="color: #013eaf;" href="contact.html"><b>Contact</b></a></li>
+                <li class="navlist" style="float:right;font-size: larger; padding-right: 40px"><a style="color: #013eaf;" href="signup.html"><b>Sign up</b></a></li>
+                <li class="navlist" style="float:right;font-size: larger;"><a class="active" href="login.html"><b>Login</b></a></li>
+                
+            </ul>
+        </nav>
+    <div style= "background-color: #ffffff; padding: 200px;">
+            <section style="clear: both; background-color: rgb(231, 231, 231); padding: 50px; box-shadow: 5px 5px 5px #888585;">
+  
+                <br>
+                <br>
+                <form style="text-align: center;">
+                    <fieldset>
+                        <legend style="font-size:x-large ;"><b>Login</b></legend>
+                        
+                        <br>
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="email" id="email" name="email" style="padding: 12px 20px; width: 300px; border-radius: 5px;" placeholder="Enter your email" required><br><br>
+
+                    <label for="pword"><b>Password</b></label><br>
+                    <input type="password" id="pword" name="pword" style="padding: 12px 20px; width: 300px; border-radius: 5px;" placeholder="Enter your password" required><br><br>
+
+                    <br><br><br>
+
+                    <input type="submit" value="Login" style="padding: 10px 15px; background-color:#013eaf; border-radius: 5px; color: #ffffff;"> <a href="signup.html" style="margin-left: 20px; text-decoration: none; color: #013eaf;"> Not Registered?</a><br><br>
+
+                </fieldset>
+                </form>
+
+            
+        </section>
+    </div>
+    </body>
+</html>
